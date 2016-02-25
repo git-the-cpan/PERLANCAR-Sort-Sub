@@ -11,7 +11,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.043, CPAN::Meta::Converter version 2.150005'
+generated_by: 'Dist::Zilla version 5.043, CPAN::Meta::Converter version 2.150001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,10 +25,10 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PERLANCAR-Sort-Sub
   homepage: https://metacpan.org/release/PERLANCAR-Sort-Sub
   repository: git://github.com/perlancar/perl-PERLANCAR-Sort-Sub.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
-    version: '5.022000'
+    version: '5.022001'
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
@@ -249,7 +249,7 @@ x_Dist_Zilla:
             -
               class: Pod::Weaver::Plugin::Rinci
               name: '@Author::PERLANCAR/Rinci'
-              version: '0.55'
+              version: '0.54'
             -
               class: Pod::Weaver::Plugin::AppendPrepend
               name: '@Author::PERLANCAR/AppendPrepend'

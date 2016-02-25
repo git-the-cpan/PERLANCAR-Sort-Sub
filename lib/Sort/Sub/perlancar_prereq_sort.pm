@@ -1,9 +1,9 @@
 package Sort::Sub::perlancar_prereq_sort;
 
 our $DATE = '2016-02-25'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
@@ -50,7 +50,7 @@ Sort::Sub::perlancar_prereq_sort - Sort prereqs PERLANCAR-style
 
 =head1 VERSION
 
-This document describes version 0.01 of Sort::Sub::perlancar_prereq_sort (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-25.
+This document describes version 0.02 of Sort::Sub::perlancar_prereq_sort (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-25.
 
 =head1 DESCRIPTION
 

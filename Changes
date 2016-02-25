@@ -1,5 +1,12 @@
 Revision history for PERLANCAR-Sort-Sub
 
+0.02    2016-02-25 (PERLANCAR)
+
+	- No functional changes.
+
+	- Remove lib/Sort/Sub.pm [copy mistake].
+
+
 0.01    2016-02-25 (PERLANCAR)
 
         - First release.
