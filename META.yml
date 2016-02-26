@@ -25,7 +25,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=PERLANCAR-Sort-Sub
   homepage: https://metacpan.org/release/PERLANCAR-Sort-Sub
   repository: git://github.com/perlancar/perl-PERLANCAR-Sort-Sub.git
-version: '0.02'
+version: '0.03'
 x_Dist_Zilla:
   perl:
     version: '5.022001'
@@ -249,7 +249,7 @@ x_Dist_Zilla:
             -
               class: Pod::Weaver::Plugin::Rinci
               name: '@Author::PERLANCAR/Rinci'
-              version: '0.54'
+              version: '0.56'
             -
               class: Pod::Weaver::Plugin::AppendPrepend
               name: '@Author::PERLANCAR/AppendPrepend'
@@ -287,7 +287,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Rinci::Validate
       name: '@Author::PERLANCAR/Rinci::Validate'
-      version: '0.20'
+      version: '0.21'
     -
       class: Dist::Zilla::Plugin::SetScriptShebang
       name: '@Author::PERLANCAR/SetScriptShebang'

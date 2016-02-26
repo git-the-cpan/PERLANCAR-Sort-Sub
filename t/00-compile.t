@@ -10,7 +10,7 @@ plan tests => 2 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
 
 my @module_files = (
     'PERLANCAR/Sort/Sub.pm',
-    'Sort/Sub/perlancar_prereq_sort.pm'
+    'Sort/Sub/prereq_ala_perlancar.pm'
 );
 
 

@@ -1,10 +1,16 @@
 Revision history for PERLANCAR-Sort-Sub
 
-0.02    2016-02-25 (PERLANCAR)
+0.03    2016-02-26 (PERLANCAR)
 
-	- No functional changes.
+        - [Incompatible change] Rename sort sub perlancar_prereq_sort to
+          prereq_ala_perlancar.
 
-	- Remove lib/Sort/Sub.pm [copy mistake].
+
+0.02    2016-02-26 (PERLANCAR)
+
+        - No functional changes.
+
+        - Remove lib/Sort/Sub.pm [copy mistake].
 
 
 0.01    2016-02-25 (PERLANCAR)

@@ -15,7 +15,7 @@ PERLANCAR::Sort::Sub - PERLANCAR's Sort::Sub subroutines
 
 =head1 VERSION
 
-This document describes version 0.02 of PERLANCAR::Sort::Sub (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-25.
+This document describes version 0.03 of PERLANCAR::Sort::Sub (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-27.
 
 =head1 HOMEPAGE
 

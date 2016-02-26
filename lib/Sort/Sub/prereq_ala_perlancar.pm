@@ -1,7 +1,7 @@
-package Sort::Sub::perlancar_prereq_sort;
+package Sort::Sub::prereq_ala_perlancar;
 
-our $DATE = '2016-02-25'; # DATE
-our $VERSION = '0.02'; # VERSION
+our $DATE = '2016-02-27'; # DATE
+our $VERSION = '0.03'; # VERSION
 
 use 5.010001;
 use strict;
@@ -14,16 +14,16 @@ sub gen_sorter {
         no strict 'refs';
 
         my $caller = caller();
-        my $a = ${"$caller\::a"};
-        my $b = ${"$caller\::b"};
+        my $a = @_ ? $_[0] : ${"$caller\::a"};
+        my $b = @_ ? $_[1] : ${"$caller\::b"};
 
         my $cmp = 0;
         {
             my $a_is_perl = $a eq 'perl' ? 1:0;
             my $b_is_perl = $b eq 'perl' ? 1:0;
 
-            my $a_is_pragma = $a =~ /\A[a-z]/;
-            my $b_is_pragma = $b =~ /\A[a-z]/;
+            my $a_is_pragma = $a =~ /\A[a-z]/ ? 1:0;
+            my $b_is_pragma = $b =~ /\A[a-z]/ ? 1:0;
 
             $cmp =
                 ($b_is_perl <=> $a_is_perl) ||
@@ -46,11 +46,11 @@ __END__
 
 =head1 NAME
 
-Sort::Sub::perlancar_prereq_sort - Sort prereqs PERLANCAR-style
+Sort::Sub::prereq_ala_perlancar - Sort prereqs PERLANCAR-style
 
 =head1 VERSION
 
-This document describes version 0.02 of Sort::Sub::perlancar_prereq_sort (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-25.
+This document describes version 0.03 of Sort::Sub::prereq_ala_perlancar (from Perl distribution PERLANCAR-Sort-Sub), released on 2016-02-27.
 
 =head1 DESCRIPTION
 

@@ -8,7 +8,7 @@ Makefile.PL
 README
 dist.ini
 lib/PERLANCAR/Sort/Sub.pm
-lib/Sort/Sub/perlancar_prereq_sort.pm
+lib/Sort/Sub/prereq_ala_perlancar.pm
 t/00-compile.t
 t/author-pod-coverage.t
 t/author-pod-syntax.t
